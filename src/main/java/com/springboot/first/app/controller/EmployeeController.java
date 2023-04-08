@@ -62,7 +62,7 @@ public class EmployeeController {
 		
 		// delete employee from DB
 		employeeService.deleteEmployee(id);
-		
+		//http for delete
 		return new ResponseEntity<String>("Employee deleted successfully!.", HttpStatus.OK);
 	}
 	}
